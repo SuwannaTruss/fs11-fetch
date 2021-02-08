@@ -1,0 +1,42 @@
+body {
+  background: #e2c27e;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* h1,
+h2 {
+  text-align: center;
+} */
+
+/* label {
+  font-weight: bolder;
+} */
+
+.formButton {
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: teal;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px #999;
+  align-self: center;
+}
+
+.formButton:hover {
+  background-color: blue;
+}
+
+.formButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
